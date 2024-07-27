@@ -1,0 +1,1 @@
+export { get, MskRecord } from "./src/index";

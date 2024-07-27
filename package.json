@@ -1,0 +1,17 @@
+{
+  "name": "msk_proj",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "doc": "typedoc --readme README.md --name МСК --out ./docs/ --tsconfig tsconfig.json --excludePrivate --excludeNotDocumented --excludeExternals --entryPointStrategy expand src/"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/proj4": "^2.5.5",
+    "proj4": "^2.11.0",
+    "typedoc": "^0.26.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
