@@ -10,7 +10,19 @@ export interface MskRecord {
     proj: string
 }
 
-let msk: MskRecord[] = [
+export let msk: MskRecord[] = [
+    {
+        "id": "MSKMGGT",
+        "name": "Московская СК (МГГТ)",
+        "region": "г. Москва",
+        "proj": "+proj=tmerc +lat_0=55.66666666667 +lon_0=37.5 +k=1 +x_0=16.098 +y_0=14.512 +ellps=bessel +towgs84=316.151,78.924,589.650,-1.57273,2.69209,2.34693,8.4507 +units=m +no_defs "
+    },
+    {
+        "id": "MSK1964sp",
+        "name": "МСК-1964 Санкт-Петербург",
+        "region": "г. Санкт-Петербург",
+        "proj": "+proj=tmerc +lat_0=0 +lon_0=30 +k=1 +x_0=95942.17 +y_0=-6552810.0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs"
+    },
     {
         "id": "MSK01z1",
         "name": "МСК-01, Зона 1",
@@ -630,6 +642,12 @@ let msk: MskRecord[] = [
         "proj": "+proj=tmerc +lat_0=0 +lon_0=44.55 +k=1 +x_0=4250000 +y_0=-6214743.504 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs"
     },
     {
+        "id": "MSK35z5",
+        "name": "МСК-35, Зона 5",
+        "region": "Вологодская область",
+        "proj": "+proj=tmerc +lat_0=0 +lon_0=47.55 +k=1 +x_0=5250000 +y_0=-6214743.504 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs"
+    },
+    {
         "id": "MSK36z1",
         "name": "МСК-36, Зона 1",
         "region": "Воронежская область",
@@ -828,12 +846,6 @@ let msk: MskRecord[] = [
         "proj": "+proj=tmerc +lat_0=0 +lon_0=33.95 +k=1 +x_0=3250000 +y_0=-6211057.628 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs"
     },
     {
-        "id": "MSK1964sp",
-        "name": "МСК-1964 Санкт-Петербург",
-        "region": "г. Санкт-Петербург",
-        "proj": "+proj=tmerc +lat_0=0 +lon_0=30 +k=1 +x_0=95942.17 +y_0=-6552810.0 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs"
-    },
-    {
         "id": "MSK48z1",
         "name": "МСК-48, Зона 1",
         "region": "Липецкая область",
@@ -868,12 +880,6 @@ let msk: MskRecord[] = [
         "name": "МСК-49 (6°), Зона 4",
         "region": "Магаданская область",
         "proj": "+proj=tmerc +lat_0=0 +lon_0=162.45 +k=1 +x_0=4400000 +y_0=-6212900.566 +ellps=krass +towgs84=23.57,-140.95,-79.8,0,0.35,0.79,-0.22 +units=m +no_defs"
-    },
-    {
-        "id": "MSKMGGT",
-        "name": "Московская СК (МГГТ)",
-        "region": "г. Москва",
-        "proj": "+proj=tmerc +lat_0=55.66666666667 +lon_0=37.5 +k=1 +x_0=16.098 +y_0=14.512 +ellps=bessel +towgs84=316.151,78.924,589.650,-1.57273,2.69209,2.34693,8.4507 +units=m +no_defs "
     },
     {
         "id": "MSK50z1",

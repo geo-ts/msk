@@ -1,5 +1,8 @@
 {
     "name": "@geo-ts/msk",
     "version": "0.1.0",
-    "exports": "./index.ts"
+    "exports": "./index.ts",
+    "publish": {
+        "exclude": ["tests"]
+    }
 }
